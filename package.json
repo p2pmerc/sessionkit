@@ -1,0 +1,9 @@
+{
+  "name": "sessionkit",
+  "version": "0.3.1",
+  "description": "Tiny HS256 session tokens and Express middleware, no dependencies beyond Express.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": { "test": "node --test test/*.test.js", "start": "node src/server.js" },
+  "dependencies": { "express": "^4.21.0" }
+}
